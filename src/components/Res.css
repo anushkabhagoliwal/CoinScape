@@ -1,0 +1,63 @@
+.search-bar input{
+    font-size: 15px;
+    font-weight:bold;
+    height: 2rem;
+    width: 20rem;
+    position: fixed;
+    top: 3%;
+    left: 35%;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+
+.btns{
+    
+    margin-top: 100px;
+    align-self: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 10%;
+    font-size: medium;
+    font-weight: 900;
+    
+
+}
+.btns button{
+    font-size: 14.5px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 190px;
+    padding-right: 220px;
+}
+
+.btns button{
+    cursor: pointer;
+}
+
+.ex-cards:hover{
+    background-color:  #c4dce0;
+    color:  black;
+}
+@media only screen and (max-width: 600px) {
+.search-bar input{
+    padding-left: none;
+    position: fixed;
+    font-size: none;
+    font-weight:normal;
+    top: 10%;
+    left: 7%;
+}
+.btns{
+    margin-left: 10px;
+}
+.btns{
+    padding-left: 0;
+}
+.btns button{
+    font-weight: normal;
+    font-size: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+}
